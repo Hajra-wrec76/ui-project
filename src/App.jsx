@@ -18,7 +18,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    < ><div className='min-h-screen bg-black w-full'>
+    < ><div className='min-h-screen bg-black min-w-full'>
     <Background />
     <Navbar />
     <Home />
