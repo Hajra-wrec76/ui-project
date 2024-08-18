@@ -5,11 +5,11 @@ function    Background(){
         
          <div className="absolute bottom-16 flex items-center justify-center ml-56 border-none bg-gradient-to-b from-gray-800 to-black rounded-full h-48 w-48 p-96"></div>
 
-        <div className="absolute mt-96">
-        <div className="ml-52 mt-[27rem]">
-              <h1 className="text-gray-800 text-200 font-semibold">2</h1>
+        <div className="absolute mt-[30rem]">
+        <div className="ml-52 mt-[24rem]">
+              <h1 className="text-gray-800 text-200  font-semibold">2</h1>
             </div>
-            <div className="ml-52 mt-12">
+            <div className="ml-52 mt-[7rem]">
             <h1 className="text-gray-800 text-200 font-semibold">4</h1>
             </div>
         </div>
@@ -18,7 +18,7 @@ function    Background(){
         <div className="ml-80 px-52 mt-60">
               <h1 className="text-gray-800 text-200 font-semibold">1</h1>
             </div>
-            <div className="ml-80 px-52 mt-10">
+            <div className="ml-80 px-52 mt-[10rem]">
             <h1 className="text-gray-800 text-200 font-semibold">3</h1>
             </div>
         </div>
