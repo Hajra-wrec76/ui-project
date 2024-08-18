@@ -12,13 +12,17 @@ import Features from './components/Features'
 import Home from './components/Home'
 // import Features from './components/Features'
 import GetInTouch from './components/GetInTouch'
+import Test from './components/test'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    < ><div className='min-h-screen bg-black min-w-full'>
+    < >
+    {/* <div className='w-full bg-black'>
+    <Test/>
+    </div> */}
+    <div className='min-h-screen bg-black w-full'>
     <Background />
     <Navbar />
     <Home />
