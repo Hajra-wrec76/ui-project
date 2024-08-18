@@ -4,7 +4,7 @@ function CustomerFeedback() {
     return (
         <>
             <section className="bg-gradient-to-b from-gray-700 to-black mt-12 rounded-full border-none flex flex-col items-center justify-center py-10">
-                <div className='mb-12'>
+                <div className='py-12'>
                     <p className="text-gray-400 text-xl">People love it!</p>
                     <p className="text-white font-semibold text-4xl">Customer Feedback</p>
                 </div>

@@ -30,7 +30,7 @@ function App() {
       <Features />
       <OurTeam />
       <Pricing />
-      <div className="absolute bottom-16 flex items-center justify-center ml-56 border-none bg-gradient-to-b from-gray-800 to-black rounded-full h-48 w-48 p-96"></div>
+      {/* <div className="absolute bottom-16 flex items-center justify-center ml-56 border-none bg-gradient-to-b from-gray-800 to-black rounded-full h-48 w-48 p-96"></div> */}
      
       <CustomerFeedback />
       <GetInTouch />
