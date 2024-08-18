@@ -2,7 +2,7 @@ import React from "react";
 
 const OurTeam = () => {
     return (
-        <div className="min-h-screen bg-black text-white flex flex-col justify-center items-center">
+        <div className="min-h-screen bg-black text-white flex flex-col justify-center items-center mt-[10rem] py-12">
             <div className="text-center mb-8">
                 <p className="text-gray-400 text-sm md:text-base">Founders</p>
                 <h2 className="text-2xl md:text-4xl font-semibold">Our Team</h2>
