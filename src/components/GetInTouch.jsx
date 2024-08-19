@@ -1,30 +1,32 @@
 function GetInTouch() {
     return (
-        <section className="text-center py-16 bg-black text-white">
-            <h6 className="text-gray-400">Say Hi!</h6>
-            <h2 className="text-3xl font-bold">Get in Touch</h2>
-            <div className="mt-10 flex justify-center">
-                <div className="w-[25rem] bg-gray-50 p-6 rounded-3xl flex flex-col items-center space-y-4">
-                    <input
-                        className="text-lg font-semibold text-gray-900 w-full p-3 rounded-lg "
-                        type="text"
-                        placeholder="Type a message..."
-                    />
-                    <input
-                        className="text-base text-gray-600 w-full p-3 rounded-lg bg-gray-200"
-                        type="email"
-                        placeholder="Enter your email"
-                    />
-                    <button
-                        className="bg-black text-white font-semibold py-2 px-6 rounded-lg hover:bg-gray-800"
-                        type="submit"
-                    >
-                        Send Message
-                    </button>
+    
+        <section>
+<h6 className="text-gray-400">Say Hi!</h6>
+    <h2 className="text-3xl font-bold text-white">Get in Touch</h2>
 
-                </div>
-            </div>
-        </section>
+<div className="mt-5 ">
+<div className="flex flex-col ml-[17rem] mr-30 h-[12rem] justify-between rounded-3xl bg-gray-50 p-4 md:flex-row md:items-center md:p-8  justify-text w-[25rem]">
+  <div className="space-y-2 ">
+    
+    <input className="text-xl font-semibold leading-loose text-gray-900 text-start" type="text" placeholder="Type a message..." />
+    <div>
+    <input className="text-base  text-gray-600  md:text-lg" type="email"  placeholder="Enter your email" />
+    <button className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"type="submit">Send</button>
+    
+    
+    </div>
+
+    
+    
+
+     
+    
+  </div>
+ 
+</div>
+</div>
+</section>
     );
 }
 
