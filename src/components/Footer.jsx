@@ -23,8 +23,12 @@ function Footer() {
                         <p className="text-sm ">support@hostelin.com</p>
                     </div>
                     <div className="flex items-center gap-2">
-                        <FaLinkedin size={25} color="#0077B5" />
-                        <p className="text-sm">hostelin.com/in</p>
+                        <FaLinkedin size={25} color="#0077B5" /> 
+                       
+
+                        <p className="text-sm">www.linkedin.com/in/marfowa-kianat-b346712b1
+
+</p>
                     </div>
                     <div className="flex space-x-4 mt-2">
                         <FaFacebook size={30} color="black" />

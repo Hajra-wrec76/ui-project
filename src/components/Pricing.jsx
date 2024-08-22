@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 const Pricing = () => {
     const [selectedPlan, setSelectedPlan] = useState('Pro Plan');
 
-    return (
-        <div className=" bg-black text-white flex flex-col justify-center items-center py-10">
+    return ( 
+        <div className=" bg-black text-white flex flex-col justify-center  items-center   py-10">
             <div className="text-center mb-8">
                 <p className="text-gray-400">It's worth it!</p>
                 <h2 className="text-3xl md:text-4xl font-semibold">Price Plans</h2>
@@ -71,13 +71,20 @@ const Pricing = () => {
                     </div>
                     <ul className="space-y-2">
                         <li className="flex items-center">
-                            <span className="mr-2">➜</span> Advanced Automation & Integration
+                        <div>
+                        <span className="mr-2">➜</span> Advanced Automation & Integration
+
+                        </div>
+
                         </li>
                         <li className="flex items-center">
                             <span className="mr-2">➜</span> Detailed Financial Reports
                         </li>
                         <li className="flex items-center">
-                            <span className="mr-2">➜</span> Enhanced Notifications, Security & Reporting
+                        <div>
+                        <span className="mr-2">➜</span> Enhanced Notifications, Security & Reporting
+
+                        </div>
                         </li>
                         <li className="flex items-center">
                             <span className="mr-2">➜</span> 24/7 Customer Support

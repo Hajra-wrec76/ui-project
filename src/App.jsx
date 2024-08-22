@@ -33,7 +33,7 @@ function App() {
             <h1>Customer Feedback</h1>
           </div>
 
-          <div className="  mt-absolute bottom-40 flex items-center justify-center ml-72 border-none bg-gradient-to-b from-gray-400	 to-black rounded-full h-28 w-28 p-72">
+          <div className="  mt-absolute bottom-40 flex items-center justify-center ml-72 border-none bg-gradient-to-b from-gray-700	 to-black rounded-full h-28 w-28 p-72">
             <div className="content">
               <CustomerFeedback />
               <br />

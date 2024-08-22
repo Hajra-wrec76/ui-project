@@ -1,10 +1,13 @@
 import images from "./images.jpg";
+
+
 function Navbar() {
     return (
       <>
         <div className="absolute ml-[4rem] mt-[2rem]">
-        <img src={images} alt="Image description" className="h-8 w-8 object-cover rounded-lg"/>
+        <img src={images} alt="Image description" className="h-8 w-8 object-cover rounded-md"/>
         </div>
+        
   
 
       <div className="relative flex justify-center sm:py-6 lg:py-8">
